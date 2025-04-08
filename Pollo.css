@@ -1,0 +1,27 @@
+:root {
+    --Color-Primario:#b6b5b5;
+    --Fuente-Principal:"Oswald";
+    --Tamano-Texto:20px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.header {
+   
+}
+#main {
+    background-color: #ef6f03;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBkj1GiYGpj9ODx8-kHXaF0RXcn22s0y8-AQ&s");
+}
+
+.estilodereceta {
+    background-color: var(--Color-Primario,);
+    font-family: var(--Fuente-Principal);
+    font-size: var(--Tamano-Texto);
+}
